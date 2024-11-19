@@ -107,7 +107,7 @@ resource "aws_instance" "my_ec2" {
   instance_type = "t2.micro"
   subnet_id              = aws_subnet.public_subnet.id
   vpc_security_group_ids = [aws_security_group.ec2_sg.id]
-  key_name               = "your_key" # Replace with your actual key pair name
+  key_name               = "sarav_server" # Replace with your actual key pair name
 
   tags = {
     Name = "ec2_created_using_tf"
