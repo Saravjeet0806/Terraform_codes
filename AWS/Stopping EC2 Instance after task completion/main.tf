@@ -1,5 +1,5 @@
 data "aws_instance" "existing_instance" {
-  instance_id = "i-014ab8c3a58b5d430" # Replace with your EC2 instance ID
+  instance_id = "instance id" # Replace with your EC2 instance ID
 }
 
 resource "null_resource" "start_instance" {
