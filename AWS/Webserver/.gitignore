@@ -1,0 +1,20 @@
+# Terraform state files
+*.tfstate
+*.tfstate.*
+
+# Backup files
+*.bak
+
+# Terraform provider plugins
+.terraform/
+
+# Terraform lock files (optional, depends on your project needs)
+.terraform.lock.hcl
+
+# Variable files (if they contain sensitive information)
+*.tfvars
+
+# IDE or editor specific files (e.g., VSCode, JetBrains, etc.)
+.vscode/
+.idea/
+*.swp
